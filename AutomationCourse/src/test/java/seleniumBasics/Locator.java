@@ -25,6 +25,7 @@ public class Locator extends Base {
 		// TODO Auto-generated method stub
 		
 		
+		
 		Locator loc=new Locator();
 		loc.initializeBrowser();
 		loc.verifyLocators();
