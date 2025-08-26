@@ -14,6 +14,10 @@ public class WebElementCommands extends Base{
 		showbutton.click();
 		WebElement yourmessage= driver.findElement(By.id("message-one"));
 		System.out.println(yourmessage.getText());
+		messageBox.clear();
+		System.out.println(showbutton.getTagName());
+		System.out.println(messageBox.getCssValue("border-color"));
+		
 	}
 
 	public static void main(String[] args) {
