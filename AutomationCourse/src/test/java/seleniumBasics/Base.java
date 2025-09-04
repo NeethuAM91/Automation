@@ -13,6 +13,7 @@ public class Base {
 		driver.get("https://selenium.qabible.in/");
 		driver.manage().window().maximize();
 	}
+	
 	public void browserClose()
 	{
 		//driver.close();
