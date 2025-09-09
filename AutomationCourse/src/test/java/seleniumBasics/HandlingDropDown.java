@@ -13,7 +13,7 @@ public class HandlingDropDown extends Base {
 		 WebElement drop= driver.findElement(By.id("dropdowm-menu"));
 		 Select select=new Select(drop);
 
-		select.selectByIndex(2);//choose index value based on index starting from 0,1,2
+		    select.selectByIndex(2);//choose index value based on index starting from 0,1,2
 			select.selectByValue("sql");
 			select.selectByVisibleText("C#");//visible dropdown text.
 		}
